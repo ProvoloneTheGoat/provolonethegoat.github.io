@@ -1,0 +1,30 @@
+      #tag1  {
+        color:red;
+        text-align:center;
+        width:100px;
+        border:3px solid blue;
+        
+      }
+      
+      .class1 {
+        color:white;
+        text-align:left;
+        width:100px;
+        border:3px solid red;
+        background:black;
+        border-radius:20px
+      }
+      
+      #tag2 {
+        color:#ffcc00;
+      }
+      
+      a:link {
+        color:blue;
+      }
+      a:visited {
+        color:green;
+      }
+      a:hover {
+        color:orange;
+      }
