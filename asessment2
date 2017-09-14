@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+  
+  <title>Resume</title>
+  
+<link href="url.css" rel="stylesheet" type="text/css">
+
+</head>
+
+  <body>
+    <p class=button><a href="https://learn.getgrav.org/user/pages/11.troubleshooting/01.page-not-found/error-404.png" target="_blank">Why Kansas is Amazing</a>
+    <p class=button2><a href="https://www.usnews.com/news/best-states/colorado" target="_blank">Why Colorado is Amazing</a>
+    <p class=button><a href="https://www.example.com" target="_blank">The Best Website</a>
+    <h1>Derrick Jeffers</h1>
+    <p> Contact Information:</p>
+    <p id="TextBox"> Adress: <br> Derrick Jeffers<br>123 Mr. Fisch Way<br>Fischville, FI 80000<br><br>Phone Number:<br>123.456.7890<br>E-Mail:<br>ProvoloneTheGoat@gmail.com </p>
+    <p>Experience:</p>
+    <p id="TextBox"> Jeffers Oil Field Service, Guymon, Oklahoma <br> Three Weeks Employed 2014-2016</p>
+    <p>Education:</p>
+    <p id="TextBox">Arapahoe High School</p>
+    <p>Interests:</p>
+    <p id="TextBox">Animation<br>Video Editing<br>Programming<br>Georgaphy<br>History<br>Economics<br>Mathematics</p>
+    <p>Skills:</p>
+    <p id="TextBox">Mathematics<br>Memorization<br>Computers<br></p>
+  </body>
+  
+</html>
