@@ -20,7 +20,7 @@ else {
       for(counterVariable=1; guess1!=answer1; counterVariable++){
           var guess1 = prompt("You guessed incorrectly. Please try again:");
 }
-    alert("Congradulations. It took you " + counterVariable + " guesses to complete!");
+    alert("Congratulations! It took you " + counterVariable + " guesses to complete!");
     }
 
 }
