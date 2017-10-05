@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+  
+	<head>
+	  
+    	<title>Guess The Number!</title>
+    	
+      <style type="text/css"> 
+      
+      </style>
+
+        
+  </head>
+  
+    <body>
+
+<button onclick="myFunction()">Enter Guess</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript" src="script.js"></script>
+
+    </body>
+    
+</html>
