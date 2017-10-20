@@ -29,13 +29,13 @@
                 }
                 
 	      				var top = Math.random();
-				       		top = top*100;
+				       		top = top*300;
 				      	var left = Math.random();
-						      left = left*300; 
+						      left = left*500; 
 						 
-					      document.getElementById("shape").style.top = top + "px";
-					      document.getElementById("shape").style.left = left + "px"; 				      	
-				      	document.getElementById("shape").style.backgroundColor=getRandomColor();
+		document.getElementById("shape").style.top = top + "px";
+		document.getElementById("shape").style.left = left + "px"; 				      	
+		document.getElementById("shape").style.backgroundColor=getRandomColor();
                 document.getElementById("shape").style.display = "block";
                 startTime=new Date().getTime();
                 
