@@ -1,0 +1,22 @@
+.map {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.active {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+
+.nations {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  pointer-events: none;
+}
+
+.nations:hover {
+    transform: translate(-0px, -5px)
+}
