@@ -13,7 +13,7 @@
 .PapalButton {
   position:absolute;
   top: 320px;
-  left: 315px;
+  left: 305px;
   width: 15px;
   height: 15px;
   background-color:	#F0E68C;
@@ -23,6 +23,15 @@
   position:absolute;
   top: 370px;
   left: 380px;
+  width: 15px;
+  height: 15px;
+  background-color: #8A2BE2;
+}
+
+.NeapolitanButton2 {
+  position:absolute;
+  top: 375px;
+  left: 357px;
   width: 15px;
   height: 15px;
   background-color: #8A2BE2;
@@ -82,6 +91,33 @@
   background-color: #ADFF2F;
 }
 
+.UPCButton {
+  position:absolute;
+  top: 250px;
+  left: 270px;
+  width: 15px;
+  height: 15px;
+  background-color: #FF8C00;
+}
+
+.ItalianButton {
+  position:absolute;
+  top: 250px;
+  left: 270px;
+  width: 15px;
+  height: 15px;
+  background-color: #ADFF2F;
+}
+
+.ItalianButton2 {
+  position:absolute;
+  top: 350px;
+  left: 340px;
+  width: 15px;
+  height: 15px;
+  background-color: #ADFF2F;
+}
+
 .SwissButton {
   position:absolute;
   top: 60px;
@@ -122,6 +158,168 @@
   position: relative;
   width: 120px;
   height: 160px;
+}
+
+label {
+    display: inline-block;
+    width: 5em;
+  }
+
+
+.event1 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:230px;
+  top:200px;
+}
+
+.event2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:230px;
+  top:120px;
+}
+
+.event3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:210px;
+  top:165px;
+}
+
+.event4 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:240px;
+  top:120px;
+}
+
+.event5 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:210px;
+  top:165px;
+}
+
+.event6 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:270px;
+  top:200px;
+}
+
+.event7 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:100px;
+  top:100px;
+}
+
+.event8 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:400px;
+  top:370px;
+}
+
+.event9 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:350px;
+  top:260px;
+}
+
+.event10 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:350px;
+  top:100px;
+}
+
+.event11 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:320px;
+  top:305px;
+}
+
+.event12 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color:black;
+  color:white;
+  font-family: "Courier New";
+  text-align:center;
+  border-radius: 50%;
+  left:340px;
+  top:325px;
 }
 
 
