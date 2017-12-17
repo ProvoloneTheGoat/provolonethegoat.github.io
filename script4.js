@@ -154,6 +154,44 @@ $( function() {
       $( "#LCC" ).dialog( "open" );
     });
   } );
+  
+
+$( function() {
+    $( "#UPC" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#UPCOpen" ).on( "click", function() {
+      $( "#UPC" ).dialog( "open" );
+    });
+  } );
+
+
+$( function() {
+    $( "#ITL" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#ItalianOpen" ).on( "click", function() {
+      $( "#ITL" ).dialog( "open" );
+    });
+  } );
 
 
 $( function() {
@@ -233,5 +271,19 @@ $( function() {
       $( "#OTM" ).dialog( "open" );
     });
   } );
-  
+
+
+
+$( function() {
+  $( document ).tooltip();
+} );
+
+
+
+
+
+
+
+
+
 
