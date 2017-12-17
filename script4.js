@@ -1,72 +1,237 @@
-$(document).ready(function(){
-  $("#PPS").click(function () {
-    $( "#PPS" ).dialog();
-  });
-});
+$( function() {
+    $( "#PPL" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#PapalOpen" ).on( "click", function() {
+      $( "#PPL" ).dialog( "open" );
+    });
+  } );
+  
 
-$(document).ready(function(){
-  $("#NPL").click(function () {
-    $( "#NPL" ).dialog();
-  });
-});
 
-$(document).ready(function(){
-  $("#SDP").click(function () {
-    $( "#SDP" ).dialog();
-  });
-});
+$( function() {
+    $( "#NPL" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#NeopolitanOpen" ).on( "click", function() {
+      $( "#NPL" ).dialog( "open" );
+    });
+  } );
+  
 
-$(document).ready(function(){
-  $("#TNY").click(function () {
-    $( "#TNY" ).dialog();
-  });
-});
 
-$(document).ready(function(){
-  $("#PMS").click(function () {
-    $( "#PMS" ).dialog();
-  });
-});
+$( function() {
+    $( "#SPM" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#SardinianOpen" ).on( "click", function() {
+      $( "#SPM" ).dialog( "open" );
+    });
+  } );
+  
 
-$(document).ready(function(){
-  $("#MSS").click(function () {
-    $( "#MSS" ).dialog();
-  });
-});
 
-$(document).ready(function(){
-  $("#MDN").click(function () {
-    $( "#MDN" ).dialog();
-  });
-});
+$( function() {
+    $( "#TCN" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#TuscanOpen" ).on( "click", function() {
+      $( "#TCN" ).dialog( "open" );
+    });
+  } );
+  
 
-$(document).ready(function(){
-  $("#LCA").click(function () {
-    $( "#LCA" ).dialog();
-  });
-});
 
-$(document).ready(function(){
-  $("#SWZ").click(function () {
-    $( "#SWZ" ).dialog();
-  });
-});
+$( function() {
+    $( "#PRM" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#ParmesanOpen" ).on( "click", function() {
+      $( "#PRM" ).dialog( "open" );
+    });
+  } );
+  
 
-$(document).ready(function(){
-  $("#AUT").click(function () {
-    $( "#AUT" ).dialog();
-  });
-});
 
-$(document).ready(function(){
-  $("#FRA").click(function () {
-    $( "#FRA" ).dialog();
-  });
-});
+$( function() {
+    $( "#MSC" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#MassesiOpen" ).on( "click", function() {
+      $( "#MSC" ).dialog( "open" );
+    });
+  } );
+  
 
-$(document).ready(function(){
-  $("#OTM").click(function () {
-    $( "#OTM" ).dialog();
-  });
-});
+
+$( function() {
+    $( "#MDN" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#ModeneseOpen" ).on( "click", function() {
+      $( "#MDN" ).dialog( "open" );
+    });
+  } );
+  
+
+$( function() {
+    $( "#LCC" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#LucchesiOpen" ).on( "click", function() {
+      $( "#LCC" ).dialog( "open" );
+    });
+  } );
+
+
+$( function() {
+    $( "#SWZ" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#SwissOpen" ).on( "click", function() {
+      $( "#SWZ" ).dialog( "open" );
+    });
+  } );
+  
+
+
+$( function() {
+    $( "#AUT" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#AustrianOpen" ).on( "click", function() {
+      $( "#AUT" ).dialog( "open" );
+    });
+  } );
+
+
+
+$( function() {
+    $( "#FRA" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#FrenchOpen" ).on( "click", function() {
+      $( "#FRA" ).dialog( "open" );
+    });
+  } );
+
+
+  
+$( function() {
+    $( "#OTM" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      }
+    });
+ 
+    $( "#OttomanOpen" ).on( "click", function() {
+      $( "#OTM" ).dialog( "open" );
+    });
+  } );
+  
 
